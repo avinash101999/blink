@@ -1,0 +1,25 @@
+.categories {
+  padding: 40px 50px;
+  text-align: center;
+}
+
+.categories h2 {
+  margin-bottom: 20px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.category-item {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.category-item:hover {
+  background-color: #e0e0e0;
+}
